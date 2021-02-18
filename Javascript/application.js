@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function fetchHighScores() {
-    fetch(`http://brunch-madness.herokuapp.com/high_scores`)
+    fetch(`https://brunch-madness.herokuapp.com/high_scores`)
     .then(response => response.json())
     .then(highScores => displayHighScores(highScores))
 }
