@@ -78,7 +78,6 @@ function orderFulfilledCountdown(tableContent, table) {
 
 function displayOrderToTable(thisTableOrder, tableOrderFilled) {
     let emojiOrder = ""
-    debugger
     if (thisTableOrder.items.length === 1) {
       addTips()
       tableOrderFilled.innerText = thisTableOrder.items[0].icon
