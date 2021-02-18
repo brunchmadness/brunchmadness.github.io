@@ -8,7 +8,7 @@ class Customer {
 }
 
 function fetchCustomers(){
-    fetch(`http://brunch-madness.herokuapp.com/customers`)
+    fetch(`https://brunch-madness.herokuapp.com/customers`)
     .then(response => response.json())
     .then(res => loadCustomerData(res))
 }
