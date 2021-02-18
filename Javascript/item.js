@@ -10,7 +10,7 @@ class Item {
 }
 
 function fetchItems(){
-    fetch(`http://brunch-madness.herokuapp.com/items`)
+    fetch(`https://brunch-madness.herokuapp.com/items`)
     .then(response => response.json())
     .then(res => loadItemData(res))
 }
