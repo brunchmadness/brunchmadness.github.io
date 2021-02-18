@@ -25,7 +25,7 @@ function getUserData(e) {
         body: JSON.stringify(userObj)
     }
 
-    fetch(`http://brunch-madness.herokuapp.com/users`, configObj)
+    fetch(`https://brunch-madness.herokuapp.com/users`, configObj)
     .then(response => response.json())
     .then(userData => createUserScores(userData))
 }
@@ -107,7 +107,7 @@ function recordUserScore() {
         body: JSON.stringify(userObj)
     }
 
-    fetch(`http://brunch-madness.herokuapp.com/users/${currentUserId}/scores`, configObj)
+    fetch(`https://brunch-madness.herokuapp.com/users/${currentUserId}/scores`, configObj)
     .then(response => response.json())
     .then(userData => handleNewScore(userData))
 }
