@@ -1,0 +1,221 @@
+h1#game-title {
+    color: rgb(63, 31, 31);
+    text-align: center;
+    margin-top: 4px;
+    font-family:Copperplate;
+}
+
+#sidebar {
+    height: 670px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    border: 1px solid black;
+    
+    }
+
+#sidebar::before {
+    content: "";
+    position: absolute;
+    background-image: url('brunch_cocktails.png');
+    background-size: cover;
+    background-position: center;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+    
+#sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
+    
+.body-text {
+    margin-left: 15%;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -7px;
+    }
+
+.tables {
+        /* height: 200px; */
+        width: 200px;
+        background-image: url("download.png");
+        /* background-color: rgb(123, 103, 77); */
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        margin-top: 20px;
+        margin-left: 7px;
+        line-height: 200px;
+        font-weight: 900;
+    }   
+
+    .restaurant {
+        display: none;
+        width: 87%;
+        text-align: center;
+        background-image: url("concretefloor.png");
+        background-size: cover;
+        margin-left: -5px;
+        margin-top: -1px;
+        height: 682px;
+    }
+
+.seating-1, .seating-2 {
+    width: 1050px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 10px;
+ }
+
+ .root {
+     display: inline;
+ }
+
+ #table-1 h4, #table-2 h4, #table-3 h4, #table-4 h4, #table-5 h4, #table-6 h4, #table-7 h4, #table-8 h4 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+ #table-1, #table-2, #table-3, #table-4, #table-5, #table-6, #table-7, #table-8 {
+    width: 22%;
+    height: 300px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    margin: 2px;
+ }
+
+ .seating-1 p, .seating-2 p {
+     display: inline-block;
+     font-size: 30px;
+     margin-top: 0px;
+     margin-bottom: 5px;
+ }
+
+ .seating-2 {
+     margin-top: -40px;
+ }
+ 
+ h4 {
+     margin: 1px;
+ }
+
+ .bar {
+    height: 250px;
+    width: 100px;
+    background-image: url("woodbar.png");
+    /* background-color: #bbb; */
+    float: left;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 50px;
+    border: 5px solid black;
+    position: relative;
+ }
+
+ .bar:after {
+     position: absolute;
+     border: 3px solid rgb(164, 164, 164);
+     height: 100px;
+     display: block;
+     content: "";
+     left: 100px;
+     top: 130px;
+ }
+
+ #bar-title {
+     font-size: 50px;
+     margin-top: 35px;
+ }
+
+ #register-title {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#user-info ol {
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 18px;
+}
+
+#login-form {
+    font-size: 16px;
+}
+
+  #user-info h3 {
+      margin: 10px;
+      margin-top: -15px;
+  }
+
+  #user-info {
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+
+  #waiter {
+    width:50px;
+    height:90px;
+    bottom: 30px;
+    left: 0px;
+    position: relative;
+  }
+
+  div#high-scores {
+      padding-top: 0px;
+      position: relative;
+  }
+
+  div#user-info {
+      padding-top: 0px;
+  }
+
+  #submit-btn, #how-to, #play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  #submit-btn:hover, #how-to:hover, #play-button:hover {background-color: #3e8e41}
+  
+  #submit-btn:active, #how-to:active, #play-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
+  #how-to {
+      margin-top: 10px;
+  }
+
+  #username-text {
+    text-shadow: 2px 2px 8px #3e8e41;
+    margin-top: 35px
+  }
